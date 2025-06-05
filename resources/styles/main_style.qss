@@ -1,0 +1,133 @@
+/* Ana Pencere Stili */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* Etiket Stili */
+QLabel {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Başlık Etiketi Stili */
+QLabel#titleLabel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Giriş Alanları Stili */
+QLineEdit, QTextEdit, QComboBox, QDoubleSpinBox, QDateEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: white;
+    min-height: 25px;
+}
+
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus {
+    border: 1px solid #4a90e2;
+}
+
+/* Buton Stili */
+QPushButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    min-width: 120px;
+    min-height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #357ab7;
+}
+
+QPushButton:pressed {
+    background-color: #2a5885;
+}
+
+/* Özel Buton Renkleri */
+QPushButton#ekleButton {
+    background-color: #4CAF50;
+    min-width: 140px;
+}
+
+QPushButton#guncelleButton {
+    background-color: #FFA000;
+    min-width: 140px;
+}
+
+QPushButton#silButton {
+    background-color: #F44336;
+    min-width: 140px;
+}
+
+QPushButton#temizleButton {
+    background-color: #9E9E9E;
+    min-width: 140px;
+}
+
+/* Tablo Stili */
+QTableView {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    selection-background-color: #4a90e2;
+    selection-color: white;
+    alternate-background-color: #f9f9f9;
+}
+
+QTableView::item {
+    padding: 4px;
+}
+
+QHeaderView::section {
+    background-color: #e0e0e0;
+    padding: 6px;
+    border: none;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+/* Splitter Stili */
+QSplitter::handle {
+    background-color: #ddd;
+}
+
+/* Scroll Bar Stili */
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c0c0c0;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+}
+
+/* Arama Kutusu Stili */
+QLineEdit#aramaLineEdit {
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* Fotoğraf Önizleme Stili */
+QLabel#foto_preview {
+    border: 1px dashed #ccc;
+    background-color: #f9f9f9;
+} 

@@ -1,0 +1,3 @@
+# Controllers paketi
+from controllers.parfum_controller import ParfumController
+from controllers.veritabani_controller import VeritabaniController 

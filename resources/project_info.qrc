@@ -1,0 +1,18 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <file alias="add_icon">icons/add.png</file>
+        <file alias="edit_icon">icons/edit.png</file>
+        <file alias="delete_icon">icons/delete.png</file>
+        <file alias="refresh_icon">icons/refresh.png</file>
+        <file alias="clear_icon">icons/clear.png</file>
+        <file alias="search_icon">icons/search.png</file>
+        <file alias="app_icon">icons/perfume.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="no_image">images/no_image.png</file>
+    </qresource>
+    <qresource prefix="/stylesheets">
+        <file alias="main_style">styles/main_style.qss</file>
+    </qresource>
+</RCC> 
