@@ -12,6 +12,7 @@ if __name__ == "__main__":
     app.setFont(font)
     
     print("Creating login window...")
+    print(f"Application arguments: {sys.argv}")
     
     try:
         # Create and show login form as a modal dialog
