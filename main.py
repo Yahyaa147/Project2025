@@ -6,7 +6,7 @@ from app.main_window import MainWindow
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    
+    print ("Starting application...")
     # Set app font
     font = QFont("Segoe UI", 11)
     app.setFont(font)
