@@ -9,7 +9,7 @@ if __name__ == "__main__":
     
     # Set app font
     font = QFont("Segoe UI", 11)
-    app.setFont(font)
+    # app.setFont(font)
     
     print("Creating login window...")
     
